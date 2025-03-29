@@ -19,11 +19,11 @@ export default function City(props) {
   return (
     <div class="City">
       It is {temperature} ({unit}){" "}
-      <a href="/" onClick={showcelsius}>
+      <a href="#" onClick={showcelsius}>
         °C
       </a>{" "}
       |
-      <a href="/" onClick={showFahrenheit}>
+      <a href="#" onClick={showFahrenheit}>
         °F
       </a>{" "}
       in {props.name}

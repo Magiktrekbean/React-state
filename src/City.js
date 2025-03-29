@@ -2,7 +2,7 @@ import React from "react";
 import react, { useState } from "react";
 export default function City(props) {
   let [temperature, setTemperature] = useState(props.temperature);
-  let [unit, setUnit] = useState("Metric");
+  let [unit, setUnit] = useState("celsius");
 
   function showFahrenheit(event) {
     event.preventDefault();
